@@ -1,4 +1,4 @@
-import{E as e,I as t,L as n,N as r,V as i,ct as a,f as o,h as s,j as c,l,m as u,o as d,ot as f,p,r as m,s as h,st as g,u as _,w as v,x as y}from"./runtime-core.esm-bundler-0xgFGjkk.js";import{n as b,o as x,s as S}from"./index-BGNn5zvZ.js";import{t as C}from"./supabase-DAwpnHe9.js";function w(){let e=n([]),t=n(!1),r=n(null);async function i(){t.value=!0,r.value=null;try{let{data:t,error:n}=await C.from(`registrations`).select(`
+import{E as e,I as t,L as n,N as r,V as i,ct as a,f as o,h as s,j as c,l,m as u,o as d,ot as f,p,r as m,s as h,st as g,u as _,w as v,x as y}from"./runtime-core.esm-bundler-0xgFGjkk.js";import{n as b,o as x,s as S}from"./index-BlOMIcy3.js";import{t as C}from"./supabase-DAwpnHe9.js";function w(){let e=n([]),t=n(!1),r=n(null);async function i(){t.value=!0,r.value=null;try{let{data:t,error:n}=await C.from(`registrations`).select(`
           id,
           registration_number,
           confirmation_code,
