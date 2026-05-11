@@ -1,4 +1,4 @@
-import{C as e,E as t,F as n,H as r,J as i,N as a,O as o,U as s,c,d as l,g as u,h as d,ht as f,i as p,m,mt as h,p as g,pt as _,s as v,t as y,u as b}from"./supabase-CXkCBBSb.js";import{c as x,r as S,s as C}from"./index-BU7FBbQN.js";function w(){let e=s([]),t=s(!1),n=s(null);async function r(){t.value=!0,n.value=null;try{let{data:t,error:n}=await y.from(`registrations`).select(`
+import{C as e,E as t,F as n,H as r,J as i,N as a,O as o,U as s,c,d as l,g as u,h as d,ht as f,i as p,m,mt as h,p as g,pt as _,s as v,t as y,u as b}from"./supabase-CXkCBBSb.js";import{c as x,r as S,s as C}from"./index-Bxsx63TY.js";function w(){let e=s([]),t=s(!1),n=s(null);async function r(){t.value=!0,n.value=null;try{let{data:t,error:n}=await y.from(`registrations`).select(`
           id,
           registration_number,
           confirmation_code,
