@@ -1,4 +1,4 @@
-import{C as e,E as t,F as n,H as r,J as i,N as a,O as o,U as s,c,d as l,g as u,h as d,ht as f,i as p,m,mt as h,p as g,pt as _,s as v,t as y,u as b}from"./supabase-BLZYK1yq.js";import{c as x,l as S,r as C}from"./index-BVrjiTbp.js";import{i as ee,r as w}from"./xlsx-DqFoTCJR.js";import{t as te}from"./jspdf.es.min-DA5MYwI9.js";function ne(){let e=s([]),t=s(!1),n=s(null);async function r(){t.value=!0,n.value=null;try{let{data:t,error:n}=await y.from(`registrations`).select(`
+import{C as e,E as t,F as n,H as r,J as i,N as a,O as o,U as s,c,d as l,g as u,h as d,ht as f,i as p,m,mt as h,p as g,pt as _,s as v,t as y,u as b}from"./supabase-BLZYK1yq.js";import{c as x,l as S,r as C}from"./index-CqsQXm4k.js";import{i as ee,r as w}from"./xlsx-DqFoTCJR.js";import{t as te}from"./jspdf.es.min-a7ScQdvf.js";function ne(){let e=s([]),t=s(!1),n=s(null);async function r(){t.value=!0,n.value=null;try{let{data:t,error:n}=await y.from(`registrations`).select(`
           id,
           registration_number,
           confirmation_code,
