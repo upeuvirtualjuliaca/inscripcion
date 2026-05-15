@@ -1,4 +1,4 @@
-import{D as e,G as t,K as n,L as r,P as i,Z as a,_t as o,c as s,d as c,g as l,gt as u,h as d,i as f,k as p,m,p as h,s as g,t as _,u as v,vt as y,w as b}from"./supabase-B6zCvBfL.js";import{c as x,l as S,r as ee}from"./index-B87mQWPn.js";import{i as te,r as C}from"./xlsx-DqFoTCJR.js";import{t as ne}from"./jspdf.es.min-nIdlZFku.js";function re(){let e=n([]),t=n(0),r=n(0),i=n(!1),a=n(null);async function o(){i.value=!0,a.value=null;try{let n=1e3,i=[],a=0,o=!0;for(;o;){let{data:e,error:t}=await _.from(`registrations`).select(`
+import{D as e,G as t,K as n,L as r,P as i,Z as a,_t as o,c as s,d as c,g as l,gt as u,h as d,i as f,k as p,m,p as h,s as g,t as _,u as v,vt as y,w as b}from"./supabase-B6zCvBfL.js";import{c as x,l as S,r as ee}from"./index-CTx0DjVX.js";import{i as te,r as C}from"./xlsx-DqFoTCJR.js";import{t as ne}from"./jspdf.es.min-CkYKLuc2.js";function re(){let e=n([]),t=n(0),r=n(0),i=n(!1),a=n(null);async function o(){i.value=!0,a.value=null;try{let n=1e3,i=[],a=0,o=!0;for(;o;){let{data:e,error:t}=await _.from(`registrations`).select(`
         id,
         registration_number,
         confirmation_code,
